@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Form Page</title>
+<style>
+body{
+	background-image: url('back.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+</style>
+</head>
+<body>
+<center>
+<font color='Blue' size=8>Welcome</font><br>
+<font color='Green' size=5>Registration Form</font><br><br><br>
+<form action="connect.php" method="post">
+<font size=3>
+First Name:
+<input type="text" name='firstname' placeholder="Enter your First Name"><br><br><br>
+Last Name:
+<input type="text" name='lastname' placeholder="Enter your Last Name"><br><br><br>
+Select Your Gender:
+<input type="radio" name="gender" value="m">
+<label for="male">Male</label>
+<input type="radio" name="gender" value="f">
+<label for="female">Female</label><br><br><br>
+Age:
+<input type="text" name='age' placeholder="Enter your Age"><br><br><br>
+Email ID:
+<input type="text" name="email" placeholder="Enter Your Email ID"><br><br><br>
+Phone No.:
+<input type="text" name="phone" placeholder="Enter Your Phone Number"><br><br><br>
+<input type='submit'>
+</font>
+</form>
+</center>
+</body>
+</html>
